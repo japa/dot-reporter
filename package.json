@@ -1,6 +1,6 @@
 {
   "name": "@japa/dot-reporter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dot reporter for japa test runner",
   "main": "build/index.js",
   "files": [
