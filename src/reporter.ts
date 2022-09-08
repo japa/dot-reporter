@@ -29,6 +29,6 @@ export class DotReporter extends BaseReporter {
    */
   protected async end() {
     console.log('')
-    this.printSummary(this.runner.getSummary())
+    await this.printSummary(this.runner.getSummary())
   }
 }
