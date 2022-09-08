@@ -1,3 +1,12 @@
+/*
+ * @japa/dot-reporter
+ *
+ * (c) Japa
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
 import { BaseReporterOptions } from '@japa/base-reporter'
 import { DotReporter } from './src/reporter'
 
