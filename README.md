@@ -5,7 +5,7 @@
 
 The dot reporter display an icon for each of the test executed.
 
-![image](https://user-images.githubusercontent.com/8337858/188954371-959f6171-22c8-4a15-a76f-b9d9c2576ab6.png)
+![](assets/reporter.png)
 
 ## Installation
 Install the package from the npm registry as follows.
