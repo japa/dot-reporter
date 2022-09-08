@@ -9,7 +9,7 @@
 
 import { logger } from '@poppinss/cliui'
 import { BaseReporter } from '@japa/base-reporter'
-import { TestEndNode } from '@japa/core'
+import type { TestEndNode } from '@japa/core'
 
 /**
  * Minimal reporter that prints each test as an icon.
