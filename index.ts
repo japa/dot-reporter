@@ -15,7 +15,10 @@ import { DotReporter } from './src/reporter'
  */
 export function dotReporter(options: BaseReporterOptions = {}) {
   const reporter = new DotReporter(options)
-  return reporter.boot.bind(reporter)
+  return {
+    name: 'dot' as const,
+    handler: reporter.boot.bind(reporter),
+  }
 }
 
 export { DotReporter }
