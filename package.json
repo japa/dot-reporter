@@ -35,7 +35,7 @@
     "type": "git",
     "url": "git+https://github.com/japa/dot-reporter.git"
   },
-  "author": "Julien Ripouteau <julien@ripouteau.com>,japa",
+  "author": "Julien Ripouteau <julien@ripouteau.com>,japa,virk",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/japa/dot-reporter/issues"
