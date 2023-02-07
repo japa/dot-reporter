@@ -1,15 +1,15 @@
 /*
  * @japa/dot-reporter
  *
- * (c) Japa
+ * (c) Japa.dev
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
 import { logger } from '@poppinss/cliui'
-import { BaseReporter } from '@japa/base-reporter'
 import type { TestEndNode } from '@japa/core'
+import { BaseReporter } from '@japa/base-reporter'
 
 /**
  * Minimal reporter that prints each test as an icon.
