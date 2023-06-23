@@ -7,8 +7,7 @@
  * file that was distributed with this source code.
  */
 
-import { logger } from '@poppinss/cliui'
-import type { TestEndNode } from '@japa/core'
+import type { TestEndNode } from '@japa/core/types'
 import { BaseReporter } from '@japa/base-reporter'
 
 /**
@@ -21,13 +20,13 @@ export class DotReporter extends BaseReporter {
   protected onTestEnd(payload: TestEndNode) {
     let output = ''
     if (payload.isTodo) {
-      output = logger.colors.cyan('-')
+      output = this.colors.cyan('-')
     } else if (payload.hasError || payload.isFailing) {
-      output = logger.colors.red('×')
+      output = this.colors.red('×')
     } else if (payload.isSkipped) {
-      output = logger.colors.yellow('-')
+      output = this.colors.yellow('-')
     } else {
-      output = logger.colors.green('•')
+      output = this.colors.green('•')
     }
 
     process.stdout.write(`${output}`)

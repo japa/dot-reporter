@@ -7,8 +7,8 @@
  * file that was distributed with this source code.
  */
 
-import { BaseReporterOptions } from '@japa/base-reporter'
-import { DotReporter } from './src/reporter'
+import type { BaseReporterOptions } from '@japa/base-reporter/types'
+import { DotReporter } from './src/reporter.js'
 
 /**
  * Dot reporter function
